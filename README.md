@@ -34,15 +34,15 @@ my-app-template/
 #👆
 .
 ####  🌟  React Navigation
-npm install @react-navigation/native @react-navigation/stack @react-navigation/bottom-tabs react-native-screens react-native-safe-area-context
+```bash npm install @react-navigation/native @react-navigation/stack @react-navigation/bottom-tabs react-native-screens react-native-safe-area-context```
 ####  💥  Gesture Handler (required by React Navigation)
-npm install react-native-gesture-handler
+```bash npm install react-native-gesture-handler```
 ####  💫  React Native Reanimated (for animation support)
-npm install react-native-reanimated
+```bash npm install react-native-reanimated```
 ####  💦  Install required native dependencies (for iOS)
-cd ios && pod install && cd ..
+```bashcd ios && pod install && cd ..```
 ####  🔥 Other utilities
-npm install react-native-gesture-handler react-native-reanimated react-native-vector-icons
+```bashnpm install react-native-gesture-handler react-native-reanimated react-native-vector-icons```
 
 
 Creating a reusable React Native app template is a great idea for saving time on future projects. When designing a template that can be reused multiple times, it’s essential to ensure modularity, flexibility, and ease of customization. Here are the key things to consider:
