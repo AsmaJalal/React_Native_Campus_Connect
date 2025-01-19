@@ -54,7 +54,7 @@ Creating a reusable React Native app template is a great idea for saving time on
 🙌 ## 1. Project Structure & Organization
 Modular folder structure: Organize your project into well-defined folders. For example:
 
-### ☔ assets: Images, fonts, etc.
+##### ☔ assets: Images, fonts, etc.
 ## ⛄ components: Reusable UI components (buttons, headers, form inputs).
 🐯 screens: Different screens for your app.
 🐎 navigation: Navigation setup (React Navigation or any other navigation library).
