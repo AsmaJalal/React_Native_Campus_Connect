@@ -3,13 +3,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 # Getting Started Folder Structure
 ```
 my-app-template/
-│
-├── android/                # Native Android code
-├── ios/                    # Native iOS code
-├── assets/                 # Images, fonts, and other assets
-│   ├── images/
-│   └── fonts/
-│
+
 ├── src/                    # Core source code
 │   ├── components/         # Reusable UI components
 │   ├── constants/          # Constants (e.g., colors, font sizes)
@@ -19,6 +13,9 @@ my-app-template/
 │   │   ├── HomeScreen.js   # Home screen
 │   │   ├── ProfileScreen.js
 │   │   └── LoginScreen.js
+│   ├── assets/                 # Images, fonts, and other assets
+│   │   ├── images/
+│   │   └── fonts/
 │   ├── services/           # API calls, data fetching logic
 │   ├── store/              # State management (e.g., Redux, Context)
 │   ├── utils/              # Utility functions
@@ -26,7 +23,7 @@ my-app-template/
 │
 ├── package.json            # Project dependencies and scripts
 └── README.md               # Documentation
-```
+
 
 
 
