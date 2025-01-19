@@ -32,19 +32,20 @@ my-app-template/
 
 
 👆
-🌟 ## React Navigation
+
+\🌟 ## React Navigation
 npm install @react-navigation/native @react-navigation/stack @react-navigation/bottom-tabs react-native-screens react-native-safe-area-context
 
-💥 ## Gesture Handler (required by React Navigation)
+\💥 ## Gesture Handler (required by React Navigation)
 npm install react-native-gesture-handler
 
-💫 ## React Native Reanimated (for animation support)
+\💫 ## React Native Reanimated (for animation support)
 npm install react-native-reanimated
 
-💦 ## Install required native dependencies (for iOS)
+\💦 ## Install required native dependencies (for iOS)
 cd ios && pod install && cd ..
 
-🔥 ## Other utilities
+\🔥 ## Other utilities
 npm install react-native-gesture-handler react-native-reanimated react-native-vector-icons
 
 
@@ -53,13 +54,13 @@ Creating a reusable React Native app template is a great idea for saving time on
 🙌 ## 1. Project Structure & Organization
 Modular folder structure: Organize your project into well-defined folders. For example:
 
-☔ assets: Images, fonts, etc.
-⛄ components: Reusable UI components (buttons, headers, form inputs).
-🐯 screens: Different screens for your app.
-🐎 navigation: Navigation setup (React Navigation or any other navigation library).
-🐧 services: API calls, business logic.
-🐬 utils: Helper functions or utility files.
-🐝 constants: Shared constants like colors, font sizes, etc.
+\☔ assets: Images, fonts, etc.
+\⛄ components: Reusable UI components (buttons, headers, form inputs).
+\🐯 screens: Different screens for your app.
+\🐎 navigation: Navigation setup (React Navigation or any other navigation library).
+\🐧 services: API calls, business logic.
+\🐬 utils: Helper functions or utility files.
+\🐝 constants: Shared constants like colors, font sizes, etc.
 Separation of Concerns: Keep logic, UI, and styling separate where possible, so it's easier to manage and customize the app.
 
 🌹 ## 2. Reusable Components
