@@ -1,7 +1,32 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
-
+# Getting Started Folder Structure
+```
+my-app-template/
+│
+├── android/                # Native Android code
+├── ios/                    # Native iOS code
+├── assets/                 # Images, fonts, and other assets
+│   ├── images/
+│   └── fonts/
+│
+├── src/                    # Core source code
+│   ├── components/         # Reusable UI components
+│   ├── constants/          # Constants (e.g., colors, font sizes)
+│   ├── navigation/         # Navigation files
+│   │   └── AppNavigator.js # Main navigation
+│   ├── screens/            # App screens
+│   │   ├── HomeScreen.js   # Home screen
+│   │   ├── ProfileScreen.js
+│   │   └── LoginScreen.js
+│   ├── services/           # API calls, data fetching logic
+│   ├── store/              # State management (e.g., Redux, Context)
+│   ├── utils/              # Utility functions
+│   └── App.js              # Main App entry point
+│
+├── package.json            # Project dependencies and scripts
+└── README.md               # Documentation
+```
 
 Creating a reusable React Native app template is a great idea for saving time on future projects. When designing a template that can be reused multiple times, it’s essential to ensure modularity, flexibility, and ease of customization. Here are the key things to consider:
 
