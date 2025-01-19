@@ -1,8 +1,8 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 `tableau` 
-# Getting Started Folder Structure
+## Getting Started Folder Structure
 
-1. Folder Structure
+:bowtie: ## 1. Folder Structure
 The folder structure is organized to separate concerns and keep things modular for better scalability and reuse.
 
 ```
@@ -31,49 +31,48 @@ my-app-template/
 
 
 
-
-
-# React Navigation
+👆
+🌟 ## React Navigation
 npm install @react-navigation/native @react-navigation/stack @react-navigation/bottom-tabs react-native-screens react-native-safe-area-context
 
-# Gesture Handler (required by React Navigation)
+💥 ## Gesture Handler (required by React Navigation)
 npm install react-native-gesture-handler
 
-# React Native Reanimated (for animation support)
+💫 ## React Native Reanimated (for animation support)
 npm install react-native-reanimated
 
-# Install required native dependencies (for iOS)
+💦 ## Install required native dependencies (for iOS)
 cd ios && pod install && cd ..
 
-# Other utilities
+🔥 ## Other utilities
 npm install react-native-gesture-handler react-native-reanimated react-native-vector-icons
 
 
 Creating a reusable React Native app template is a great idea for saving time on future projects. When designing a template that can be reused multiple times, it’s essential to ensure modularity, flexibility, and ease of customization. Here are the key things to consider:
 
-## 1. Project Structure & Organization
+🙌 ## 1. Project Structure & Organization
 Modular folder structure: Organize your project into well-defined folders. For example:
 
-/assets: Images, fonts, etc.
-/components: Reusable UI components (buttons, headers, form inputs).
-/screens: Different screens for your app.
-/navigation: Navigation setup (React Navigation or any other navigation library).
-/services: API calls, business logic.
-/utils: Helper functions or utility files.
-/constants: Shared constants like colors, font sizes, etc.
+☔ assets: Images, fonts, etc.
+⛄ components: Reusable UI components (buttons, headers, form inputs).
+🐯 screens: Different screens for your app.
+🐎 navigation: Navigation setup (React Navigation or any other navigation library).
+🐧 services: API calls, business logic.
+🐬 utils: Helper functions or utility files.
+🐝 constants: Shared constants like colors, font sizes, etc.
 Separation of Concerns: Keep logic, UI, and styling separate where possible, so it's easier to manage and customize the app.
 
-## 2. Reusable Components
+🌹 ## 2. Reusable Components
 Custom UI Components: Build a library of reusable components (like buttons, inputs, cards, etc.) that can be used across different screens. Use props to make them customizable.
 Theming: Allow easy customization of the look and feel through themes (e.g., light and dark modes, primary colors, fonts). A centralized theme file can help manage this.
 Cross-platform compatibility: Ensure your components and layout work well on both iOS and Android.
-## 3. Navigation Setup
+🌻 ## 3. Navigation Setup
 Use a navigation library (e.g., React Navigation) that can be easily modified or extended. Set up a simple navigation structure with stack, tab, and drawer navigation.
 Keep navigation parameters and routes flexible so they can be customized for different use cases.
-## 4. State Management
+🌺 ## 4. State Management
 Choose a state management approach (e.g., Redux, React Context API, or Zustand). Ensure the state management is flexible and scalable to handle data between screens and components.
 Avoid tightly coupling the app state to the components, making it reusable.
-## 5. API Integration & Services
+🍃 ## 5. API Integration & Services
 Make API calls modular by abstracting them into a separate service layer. This will allow easy integration of different APIs for various projects.
 Consider adding a network layer to handle requests, responses, and errors gracefully.
 ## 6. Configuration & Environment Variables
