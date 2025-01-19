@@ -61,52 +61,52 @@ Separation of Concerns: Keep logic, UI, and styling separate where possible, so 
 
 ####  🌹  2. Reusable Components
 ###### Custom UI Components: Build a library of reusable components (like buttons, inputs, cards, etc.) that can be used across different screens. Use props to make them customizable.
-Theming: Allow easy customization of the look and feel through themes (e.g., light and dark modes, primary colors, fonts). A centralized theme file can help manage this.
+###### Theming: Allow easy customization of the look and feel through themes (e.g., light and dark modes, primary colors, fonts). A centralized theme file can help manage this.
 Cross-platform compatibility: Ensure your components and layout work well on both iOS and Android.
 ####  🌻  3. Navigation Setup
-Use a navigation library (e.g., React Navigation) that can be easily modified or extended. Set up a simple navigation structure with stack, tab, and drawer navigation.
-Keep navigation parameters and routes flexible so they can be customized for different use cases.
+###### Use a navigation library (e.g., React Navigation) that can be easily modified or extended. Set up a simple navigation structure with stack, tab, and drawer navigation.
+###### Keep navigation parameters and routes flexible so they can be customized for different use cases.
 ####  🌺  4. State Management
-Choose a state management approach (e.g., Redux, React Context API, or Zustand). Ensure the state management is flexible and scalable to handle data between screens and components.
-Avoid tightly coupling the app state to the components, making it reusable.
+###### Choose a state management approach (e.g., Redux, React Context API, or Zustand). Ensure the state management is flexible and scalable to handle data between screens and components.
+###### Avoid tightly coupling the app state to the components, making it reusable.
 ####  🍃  5. API Integration & Services
-Make API calls modular by abstracting them into a separate service layer. This will allow easy integration of different APIs for various projects.
-Consider adding a network layer to handle requests, responses, and errors gracefully.
+###### Make API calls modular by abstracting them into a separate service layer. This will allow easy integration of different APIs for various projects.
+###### Consider adding a network layer to handle requests, responses, and errors gracefully.
 ####  🐼  6. Configuration & Environment Variables
-Use configuration files for environment-specific settings (e.g., URLs, keys). This way, the template can easily be adapted for different environments (development, staging, production).
-Tools like react-native-config can help you manage environment variables.
+###### Use configuration files for environment-specific settings (e.g., URLs, keys). This way, the template can easily be adapted for different environments (development, staging, production).
+###### Tools like react-native-config can help you manage environment variables.
 ####  ❄️  7. Styling & Responsiveness
-Use Flexbox for layout design to ensure responsiveness on different screen sizes.
+###### Use Flexbox for layout design to ensure responsiveness on different screen sizes.
 Avoid hardcoding dimensions (like widths and heights). Instead, use relative units or percentage-based measurements.
-Consider using a utility-first CSS framework like Tailwind CSS (via tailwind-rn) or similar to simplify styling.
+###### Consider using a utility-first CSS framework like Tailwind CSS (via tailwind-rn) or similar to simplify styling.
 ####  💐  8. Authentication (if applicable)
-Provide a customizable authentication flow. If your template requires user login, create reusable authentication components (like login forms, signup forms, token management).
-Support common authentication strategies (e.g., token-based, OAuth, Firebase Authentication, etc.).
+###### Provide a customizable authentication flow. If your template requires user login, create reusable authentication components (like login forms, signup forms, token management).
+###### Support common authentication strategies (e.g., token-based, OAuth, Firebase Authentication, etc.).
 ####  🍀  9. Internationalization (i18n)
-If you expect the app to support multiple languages, set up internationalization (i18n) with libraries like i18next to manage translations and formats.
+###### If you expect the app to support multiple languages, set up internationalization (i18n) with libraries like i18next to manage translations and formats.
 ####  🍁  10. Error Handling & Logging
-Build error handling into the template so that it’s easier to debug and maintain in future projects.
+###### Build error handling into the template so that it’s easier to debug and maintain in future projects.
 Use a logging mechanism (like Sentry or Reactotron) to capture runtime errors and performance metrics.
 ####  🍄  11. Performance Optimization
-Lazy load components/screens where appropriate to improve app startup time.
-Optimize images and assets for mobile devices.
-Utilize code splitting and efficient state updates to minimize unnecessary re-renders.
+###### Lazy load components/screens where appropriate to improve app startup time.
+###### Optimize images and assets for mobile devices.
+###### Utilize code splitting and efficient state updates to minimize unnecessary re-renders.
 ####  🌳  12. Testability
-Implement unit and integration tests to ensure the app template works correctly. Libraries like Jest and React Native Testing Library are good choices.
-Keep test coverage in mind to allow you to maintain and scale the app efficiently.
+###### Implement unit and integration tests to ensure the app template works correctly. Libraries like Jest and React Native Testing Library are good choices.
+###### Keep test coverage in mind to allow you to maintain and scale the app efficiently.
 ####  🌸  13. Documentation
-Provide clear and concise documentation for developers to easily understand how to use, extend, and customize the template.
-Include instructions on setting up the environment, adding new screens, components, or services, and modifying the theme.
+###### Provide clear and concise documentation for developers to easily understand how to use, extend, and customize the template.
+###### Include instructions on setting up the environment, adding new screens, components, or services, and modifying the theme.
 ####  🌾  14. Versioning & Updating
-Use version control (e.g., Git) to track changes and maintain different versions of the template.
-Create a changelog to document any updates or modifications to the template.
+###### Use version control (e.g., Git) to track changes and maintain different versions of the template.
+###### Create a changelog to document any updates or modifications to the template.
 ####  🌿  15. Third-party Libraries & Dependencies
-Minimize the use of unnecessary libraries. Only include the essential libraries for common functionality, like navigation, state management, or UI components.
-Ensure that dependencies are up-to-date and compatible with React Native’s latest version.
+###### Minimize the use of unnecessary libraries. Only include the essential libraries for common functionality, like navigation, state management, or UI components.
+###### Ensure that dependencies are up-to-date and compatible with React Native’s latest version.
 ####  🍂  16. Deployability
-Consider setting up a simple deploy script to help users easily publish their app to the app stores or other platforms (via tools like Fastlane).
+###### Consider setting up a simple deploy script to help users easily publish their app to the app stores or other platforms (via tools like Fastlane).
 ####  🐤  17. Accessibility
-Ensure the app template supports basic accessibility features, like screen reader support, and ensure interactive elements are usable by everyone.
+###### Ensure the app template supports basic accessibility features, like screen reader support, and ensure interactive elements are usable by everyone.
 
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
