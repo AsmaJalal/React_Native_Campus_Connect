@@ -34,7 +34,7 @@ my-app-template/
 #👆
 .
 ####  🌟  React Navigation
-```bash npm install @react-navigation/native @react-navigation/stack @react-navigation/bottom-tabs react-native-screens react-native-safe-area-context```
+``` npm install @react-navigation/native @react-navigation/stack @react-navigation/bottom-tabs react-native-screens react-native-safe-area-context```
 ####  💥  Gesture Handler (required by React Navigation)
 ```bash npm install react-native-gesture-handler```
 ####  💫  React Native Reanimated (for animation support)
