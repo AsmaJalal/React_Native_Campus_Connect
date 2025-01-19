@@ -60,7 +60,7 @@ Modular folder structure: Organize your project into well-defined folders. For e
 Separation of Concerns: Keep logic, UI, and styling separate where possible, so it's easier to manage and customize the app.
 
 ####  🌹  2. Reusable Components
-Custom UI Components: Build a library of reusable components (like buttons, inputs, cards, etc.) that can be used across different screens. Use props to make them customizable.
+####### Custom UI Components: Build a library of reusable components (like buttons, inputs, cards, etc.) that can be used across different screens. Use props to make them customizable.
 Theming: Allow easy customization of the look and feel through themes (e.g., light and dark modes, primary colors, fonts). A centralized theme file can help manage this.
 Cross-platform compatibility: Ensure your components and layout work well on both iOS and Android.
 ####  🌻  3. Navigation Setup
