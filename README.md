@@ -33,19 +33,19 @@ my-app-template/
 
 👆
 
-## 🌟  React Navigation
+### 🌟  React Navigation
 npm install @react-navigation/native @react-navigation/stack @react-navigation/bottom-tabs react-native-screens react-native-safe-area-context
 
-## 💥  Gesture Handler (required by React Navigation)
+### 💥  Gesture Handler (required by React Navigation)
 npm install react-native-gesture-handler
 
-## 💫  React Native Reanimated (for animation support)
+### 💫  React Native Reanimated (for animation support)
 npm install react-native-reanimated
 
-## 💦  Install required native dependencies (for iOS)
+### 💦  Install required native dependencies (for iOS)
 cd ios && pod install && cd ..
 
-## 🔥 Other utilities
+### 🔥 Other utilities
 npm install react-native-gesture-handler react-native-reanimated react-native-vector-icons
 
 
