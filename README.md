@@ -67,29 +67,29 @@ Development Plan:
 
 
 Explanation:
-###    1.	android/ & ios/: 
+###  ⛄  1.	android/ & ios/: 
 #####    Native code for Android and iOS platforms. React Native will handle most of the development, but this folder contains platform-specific files.
-###    2.	assets/: 
+###  🌀  2.	assets/: 
 #####   Folder for static assets such as images, fonts, and icons that will be used throughout the app.
-###    3.	components/: 
+###  🐱 3.	components/: 
 #####   Contains reusable components that can be used in multiple screens, such as buttons, headers, cards for events, etc.
-###    4.	config/: 
+###  🐹 4.	config/: 
 #####   Stores configuration files such as Firebase initialization (firebase.js), where you set up Firebase credentials, authentication, Firestore, and Firebase services.
-###    5.	navigation/: 
+###  🐸  5.	navigation/: 
 #####   Contains files for setting up navigation in the app. AppNavigator.js holds the main navigation, AuthNavigator.js handles authentication screens, and TabNavigator.js organizes the app into tabs.
-###    6.	screens/: 
+###  🐻  6.	screens/: 
 #####   The core screen components that display different views of the app (home, events, profile, etc.). Each major section of the app (Auth, Home, Profile, etc.) has its folder.
-###    7.	services/: 
+###  🐮 7.	services/: 
 #####   Contains utility files that handle interactions with Firebase and other services, such as retrieving data from Firestore for events, handling push notifications, and dealing with location for the campus map.
-###    8.	store/: 
+###  🐒  8.	store/: 
 #####   This is where you’ll store state management files. You can use Zustand, Redux, or React Context to handle the global state of authentication, events, student profile, and emergency contacts.
-###    9.	utils/: 
+###  🐔 9.	utils/: 
 #####   Contains small utility files such as validation functions, date formatting, and map-related helpers.
-###    10.	App.js: 
+###  🐧  10.	App.js: 
 #####   The main entry point of your app, which includes the setup for navigation and routes.
-###    11.	package.json: 
+###  🐬 11.	package.json: 
 #####   Manages dependencies and scripts needed to build and run your app.
-###    12.	.firebaserc: 
+###  🐷  12.	.firebaserc: 
 #####   This is the Firebase configuration file for setting up your Firebase project within your React Native project.
 
 
