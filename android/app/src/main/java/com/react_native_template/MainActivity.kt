@@ -1,4 +1,4 @@
-package com.react_native_template
+package com.React_Native_campus_connect
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
@@ -11,7 +11,7 @@ class MainActivity : ReactActivity() {
    * Returns the name of the main component registered from JavaScript. This is used to schedule
    * rendering of the component.
    */
-  override fun getMainComponentName(): String = "React_Native_Template"
+  override fun getMainComponentName(): String = "React_Native_Campus_Connect"
 
   /**
    * Returns the instance of the [ReactActivityDelegate]. We use [DefaultReactActivityDelegate]
